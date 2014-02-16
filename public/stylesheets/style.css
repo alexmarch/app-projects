@@ -1,0 +1,11 @@
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  word-spacing: normal;
+  white-space: nowrap;
+  display: block;
+}
+.project-list {
+  margin: 15px auto;
+}

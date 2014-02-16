@@ -1,0 +1,17 @@
+extends layout
+
+block content
+ #app.container
+    .panel.panel-default.project-list
+         .panel-heading
+            | Project list
+         .panel-body#body
+             ul#content.list-group
+             #message.alert.alert-info.text-center Project list empty !
+             button#addNew.btn.btn-default.pull-right Add new project
+    #dialogs
+ script(src="javascripts/jquery.min.js")
+ script(src="javascripts/underscore.js")
+ script(src="javascripts/backbone.js")
+ script(src="javascripts/modal.js")
+ script(src="javascripts/app.js")
