@@ -1,4 +1,4 @@
 app-projects
 ============
 
-backbonejs+nodejs
+Demo project (backbonejs+nodejs+bootstrap)
